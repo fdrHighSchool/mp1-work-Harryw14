@@ -1,0 +1,35 @@
+public class Rocket
+{
+    public static void main(String[]args){
+      top();
+      square();
+      square2();
+      middle();
+      
+    } // end main method
+    
+    public static void top() {
+    System.out.println("  //\\");
+    System.out.println(" //  \\");
+    System.out.println("//    \\");
+    System.out.println("+_____+");
+    }//end of top
+    
+    public static void square(){
+    System.out.println("|     |");
+    System.out.println("|     |");
+    System.out.println("+_____+");
+    }//end of square
+    
+    public static void middle(){
+    System.out.println("|Rocket|");
+    System.out.println("|      |");
+    System.out.println("+______+");
+    }//end of middle
+    
+     public static void square2(){
+    System.out.println("|     |");
+    System.out.println("|     |");
+    System.out.println("+_____+");
+    }//end of square2
+}
