@@ -2,9 +2,9 @@
 ## fall-22-mp1-work
 
 
-### Last Name:  
-### First Name: 
-### GitHub Username: 
+### Last Name:  Wang
+### First Name: Harry
+### GitHub Username: Harryw14
 
 ---
 #### General Workflow: 
