@@ -1,3 +1,4 @@
+import java.util.Random;
 import java.util.Scanner;
 class Main {
   private static int yes;
@@ -15,7 +16,6 @@ class Main {
       System.out.println("Your username is "+ initialize(fn)+ initialize(lni)+initialize(n)+"@nycstudents.net");
    }//end of student
     else {
-     Scanner s =new Scanner(System.in);
      System.out.print("Enter your first name: ");
      String fn=s.nextLine();
      System.out.print("Enter your last name initial: ");
@@ -29,8 +29,3 @@ class Main {
 	public static String initialize(String n){
       return n.substring(0,1);
   }//substring
-
-}//end case
-//.tolowerCase();
-//int rand_int1=rand.nextint(10);
-  public static String generatePasswo
