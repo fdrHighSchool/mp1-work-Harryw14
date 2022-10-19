@@ -1,0 +1,30 @@
+import java.util.Scanner;
+class Main {
+ public static void main(String[] args) {
+  Scanner s =new Scanner(System.in);
+   System.out.println("Are you a student");
+    String ans=s.nextLine();
+     if (ans!="yes"){ 
+      System.out.print("Enter your first name: ");
+      String fn=s.nextLine();
+      System.out.print("Enter your last name initial: ");
+      String lni=s.nextLine();
+      System.out.println("Enter your favorite number: ");
+      String n=s.nextLine();
+      System.out.println("Your username is "+ initialize(fn)+ initialize(lni)+initialize(n)+"@nycstudents.net");
+   }//end of student
+    else {
+     System.out.print("Enter your first name: ");
+     String fn=s.nextLine();
+     System.out.print("Enter your last name initial: ");
+     String lni=s.nextLine();
+     System.out.println("Enter your favorite number: ");
+     String n=s.nextLine();
+     System.out.println("Your username is "+ initialize(fn)+ initialize(lni)+initialize(n)+"@schools.nyc.gov");
+    }//end of teacher
+    s.close();  
+  }//end public static void
+	public static String initialize(String n){
+      return n.substring(0,1);
+  }//substring
+//.tolowerCase();
