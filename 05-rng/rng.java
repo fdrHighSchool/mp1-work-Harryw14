@@ -23,9 +23,10 @@ public class rng
     }
      else if(mode.equals("hard")){
      int min=0;
-  int max=100;
+     int max=100;
 }
     System.out.println("Enter your guess");
+    int random_int = (int)Math.floor(Math.random()*(max-min+1)+min);
     int pg=s.nextInt();//pg=player guess
     if(pg!=mn){
      if(pg<mn){
