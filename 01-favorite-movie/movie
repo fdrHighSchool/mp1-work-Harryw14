@@ -1,0 +1,7 @@
+public class Main {
+  public static void main(String[] args) {
+    System.out.println("I don't have a favorite movie ");
+    System.out.println("If  had A favorite movie I would talk about it's plot");
+    System.out.println("If I had a favorite movie I would tak about it's characters");
+ }
+}
